@@ -2,7 +2,7 @@
 
 
  var data = new Date();
-alert('Date(): '+data);
+alert('Date(27.11.2023): '+data);
 alert('Metoda getDate: '+data.getDate());
 alert('Metoda getDay: '+data.getDay());
 alert('Metoda getFullYear: '+data.getFullYear());
