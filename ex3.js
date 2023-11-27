@@ -1,4 +1,4 @@
-function getWeeklyDay(year, month, day) {
+function getMyBornDay(year, month, day) {
     var Days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Saturday", "Friday", "Saturday"];
     var date = new Date(year, month - 1, day); 
     var dayOfWeekNumber = date.getDay();
@@ -7,8 +7,8 @@ function getWeeklyDay(year, month, day) {
 }
 
 
-var year = 2023;
+var year = 2006;
 var month = 11; 
-var day = 27;
-var dayOfWeek = getWeeklyDay(year, month, day);
+var day = 26;
+var dayOfWeek = getMyBornDay(year, month, day);
 console.log("Day of the week : " + dayOfWeek);
