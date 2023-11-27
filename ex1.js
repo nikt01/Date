@@ -2,7 +2,7 @@
  let  Minuty = new Date().getMinutes();
 
  
- alert(Teraz +"-"+ Minuty);
+ alert(Teraz +":"+ Minuty);
 
 
  
