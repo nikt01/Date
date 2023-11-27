@@ -1,6 +1,6 @@
 function getWeeklyDay(year, month, day) {
     return ["Lunes", "Martes", "Miercoles", "Jueves", "Viernes", "Sabado","Domingo"][
-      new Date(year, month +0, day).getDay()
+      new Date(year, month -1, day).getDay()
     ] || "Wrong Day Or Undefined";
   }
   
