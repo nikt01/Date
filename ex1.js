@@ -1,3 +1,4 @@
-var dateObject = new Date(2006, 11, 26); 
+var dateObject = new Date (2006, 11, 26);
 
-console.log(dateObject);
+
+console.log(dateObject)
