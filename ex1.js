@@ -1,4 +1,4 @@
-var dateObject = new Date (2006, 11, 26 , 10-20);
+var dateObject = new Date (2006, 11, 26 , 10);
 
 
 console.log(dateObject)
