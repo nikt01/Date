@@ -1,4 +1,4 @@
- let  Teraz = new Date.getHour(); 
+ let  Teraz = new Date.getHours(); 
  alert(Teraz);
 
 
