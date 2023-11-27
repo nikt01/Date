@@ -1,8 +1,14 @@
- let  Teraz = new Date().getHours();
+ let  Godz = new Date().getHours();
  let  Minuty = new Date().getMinutes();
+   
 
  
- alert(Teraz +":"+ Minuty);
+ alert(Godz +":"+ Minuty);
+if(Godz=21){
+    cyfra_hiszpanska = "veintiuno"
+
+    return alert = cyfra_hiszpanska
+}
 
 
  
