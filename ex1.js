@@ -1,15 +1,3 @@
- var  Godz = new Date().getHours();
- let  Minuty = new Date().getMinutes();
-   
+var dateObject = new Date(2006, 11, 26); 
 
- 
- alert(Godz +":"+ Minuty);
-if (Godz=21) {
-    
-    cyfra_hiszpanska = "veintiuno"
-
- alert = "veintiuno"
-}
-
-
- 
+console.log(dateObject);
