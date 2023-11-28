@@ -11,4 +11,4 @@ var year = 2006;
 var month = 11; 
 var day = 26;
 var dayOfWeek = getMyBornDay(year, month, day);
-console.log("Day of the week : " + dayOfWeek);
+console.log("My Born Day: " + dayOfWeek);
