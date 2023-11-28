@@ -9,6 +9,6 @@ function getWeeklyDay(year, month, day) {
 
 var year = 2023;
 var month = 11; 
-var day = 27;
+var day = 28;
 var dayOfWeek = getWeeklyDay(year, month, day);
 console.log("Day of the week : " + dayOfWeek);
