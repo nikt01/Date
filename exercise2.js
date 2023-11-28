@@ -1,5 +1,5 @@
 function getWeeklyDay(year, month, day) {
-    var SpanishDays = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
+    var SpanishDays = ["Domingo", "Lunas", "Martes", "Miercoles", "jueves", "viernes", "Sabado"];
     var date = new Date(year, month - 1, day); 
     var dayOfWeekNumber = date.getDay();
 

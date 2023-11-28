@@ -1,5 +1,5 @@
 function getMyBornDay(year, month, day) {
-    var Days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Saturday", "Friday", "Saturday"];
+    var Days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     var date = new Date(year, month - 1, day); 
     var dayOfWeekNumber = date.getDay();
 
